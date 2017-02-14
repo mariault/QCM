@@ -1,0 +1,4 @@
+services:
+#    qcm_front.example:
+#        class: QCM\FrontBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
