@@ -1,0 +1,18 @@
+{% extends 'QCMBackBundle:Default:index.html.twig' %}
+
+{% block body %}
+    <h1 style="color: orange">Liste des QCM</h1>
+    
+        
+    {% for post in list %}  
+        <div class="warning">
+         <a style="color: orange"><strong>Titre du Test : </strong>{{ post.getlibelle()}}</a><br><a style="color:green"><strong>Description du Test : </strong> {{ post.getdescription() }}</a><br>
+        <a style="color: red"><strong>La durée du test est de :</strong> {{ post.getduree() }}<strong>   secondes</strong></a ><br>
+        <a style="color: greenyellow"><strong>Le seuil de bonne réponse est de : </strong>{{ post.getseuil() }}</a><br> 
+        </div>
+            {% endfor %}
+        </div>
+    </td>
+</div>
+
+{% endblock %}

@@ -1,13 +1,10 @@
 qcm_back:
     resource: "@QCMBackBundle/Resources/config/routing.yml"
-    prefix:   /admin
+    prefix:   /
 
 qcm_front:
     resource: "@QCMFrontBundle/Resources/config/routing.yml"
     prefix:   /
-    
-user_bundle:
-   resource: "@QCMBackBundle/Resources/config/routing.yml"
 
 
 

@@ -1,1 +1,25 @@
-Hello World!
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" />
+    {% endblock %}
+    <link rel="stylesheet" href="{{ asset('bundles/EcfBundle/css/style.css') }}"></link>
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+    <header>
+        
+           
+    </header>
+   
+    {% block body %}{% endblock %}
+{% block javascripts %}{% endblock %}
+
+<footer>
+    
+</footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}
+    {% endblock %}
+    <link rel="stylesheet" href="{{ asset('bundles/EcfBundle/css/style.css') }}"></link>
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+    <header>
+        
+           
+    </header>   
+    {% block body %}
+    <div class="well">
+    {{ form(form) }}
+    <div>
+    
+    {% endblock %}
+{% block javascripts %}{% endblock %}
+
+<footer>
+    
+</footer>
+</body>
+</html>
