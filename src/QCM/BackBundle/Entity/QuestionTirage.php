@@ -38,7 +38,7 @@ class QuestionTirage
       /**
      * 
      *
-     * @ORM\OneToMany(targetEntity="reponseDonnee", mappedBy="questionTirage")
+     * @ORM\OneToMany(targetEntity="ReponseDonnee", mappedBy="questionTirage")
      */
     private $reponsesDonnees;
     

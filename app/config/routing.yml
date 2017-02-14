@@ -5,6 +5,9 @@ qcm_back:
 qcm_front:
     resource: "@QCMFrontBundle/Resources/config/routing.yml"
     prefix:   /
+    
+user_bundle:
+   resource: "@QCMBackBundle/Resources/config/routing.yml"
 
 
 

@@ -10,7 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table(name="staffeni")
  * @ORM\Entity(repositoryClass="QCM\BackBundle\Repository\StaffENIRepository")
  */
-class StaffENI
+class StaffENI extends Utilisateur
 {
     /**
      * @var int
@@ -19,7 +19,7 @@ class StaffENI
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    private $id;
+    protected $id;
     
     /**
      * 
