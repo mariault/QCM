@@ -15,13 +15,13 @@ class __TwigTemplate_8d033fb9a81e8023ec761f3410fc1997cec63fa288b334c97e56607c7da
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_2bb5e5b452a548123861942408fe18ca2fa1a89d3287f808214865c9c5dc4d5f = $this->env->getExtension("native_profiler");
-        $__internal_2bb5e5b452a548123861942408fe18ca2fa1a89d3287f808214865c9c5dc4d5f->enter($__internal_2bb5e5b452a548123861942408fe18ca2fa1a89d3287f808214865c9c5dc4d5f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.rdf.twig"));
+        $__internal_2fdaee4dfe61c2cb69f69fa49c12848bb3d55b9c6fa19b589a5c60fb55144f5b = $this->env->getExtension("native_profiler");
+        $__internal_2fdaee4dfe61c2cb69f69fa49c12848bb3d55b9c6fa19b589a5c60fb55144f5b->enter($__internal_2fdaee4dfe61c2cb69f69fa49c12848bb3d55b9c6fa19b589a5c60fb55144f5b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.rdf.twig"));
 
         // line 1
         $this->loadTemplate("@Twig/Exception/exception.xml.twig", "TwigBundle:Exception:exception.rdf.twig", 1)->display(array_merge($context, array("exception" => (isset($context["exception"]) ? $context["exception"] : $this->getContext($context, "exception")))));
         
-        $__internal_2bb5e5b452a548123861942408fe18ca2fa1a89d3287f808214865c9c5dc4d5f->leave($__internal_2bb5e5b452a548123861942408fe18ca2fa1a89d3287f808214865c9c5dc4d5f_prof);
+        $__internal_2fdaee4dfe61c2cb69f69fa49c12848bb3d55b9c6fa19b589a5c60fb55144f5b->leave($__internal_2fdaee4dfe61c2cb69f69fa49c12848bb3d55b9c6fa19b589a5c60fb55144f5b_prof);
 
     }
 
