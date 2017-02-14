@@ -309,6 +309,19 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
         }
         not_fos_user_change_password:
 
+        if (0 === strpos($pathinfo, '/list')) {
+            // qcm_back_list
+            if ($pathinfo === '/list') {
+                return array (  '_controller' => 'QCM\\BackBundle\\Controller\\ListController::indexAction',  '_route' => 'qcm_back_list',);
+            }
+
+            // qcm_back_listadd
+            if ($pathinfo === '/list/add') {
+                return array (  '_controller' => 'QCM\\BackBundle\\Controller\\ListController::ajouterAction',  '_route' => 'qcm_back_listadd',);
+            }
+
+        }
+
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();
     }
 }
